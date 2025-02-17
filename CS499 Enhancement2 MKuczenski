@@ -1,0 +1,80 @@
+from pymongo import MongoClient
+from bson.objectid import ObjectId
+
+class AnimalShelter(object):
+    
+    
+    def __init__(self, username, password, host, port, database, collection):
+        # Initializing the MongoClient. This helps to 
+        # access the MongoDB databases and collections.
+        # This is hard-wired to use the aac database, the 
+        # animals collection, and the aac user.
+        # Definitions of the connection string variables are
+        # unique to the individual Apporto environment.
+        #
+        #
+        # Connection Variables
+        #
+        USER = 'aacuser'
+        PASS = '1214lg'
+        HOST = 'nv-desktop-services.apporto.com'
+        PORT = 32583
+        DB = 'AAC'
+        COL = 'animals'
+        #
+        # Initialize Connection
+        #
+        self.client = MongoClient('mongodb://%s:%s@%s:%d' % (USER,PASS,HOST,PORT))
+        self.database = self.client['%s' % (DB)]
+        self.collection = self.database['%s' % (COL)]
+
+# Create operation for adding data
+    def create(self, data):
+        if data is not None:
+            # inserts data into dictonary
+            insert = self.database.animals.insert_one(data)  # data should be dictionary 
+            # checks if data was properly inserted
+            if insert.acknowledge == False:
+                return False
+            else:
+                return True
+        # Raises exception if nothing was input into parameter fields
+        else:
+            raise Exception("Nothing to save, because data parameter is empty")
+            
+            
+# Read operation for reading information
+    def read(self, query):
+        if query is not None:
+            # finds matching queries
+            data = self.database.animals.find(query)
+            # returns data in a list form
+            return data
+        # Raises exception if query parameter is empty
+        else:
+            raise Exception("Nothing to read, as query is empty")
+    
+    
+ # Update operation for modifying information
+    def update(self, query, updated):
+        # checks if there is a matching query
+        if query is not None:
+            # takes the query and updates it with the 'updated' value
+            data = self.database.animals.update_many(query, {'$set': updated})
+            # returns how many documents were modified
+            print({data.modified_count}, " document(s) modified")
+        # Raises exception if query parameter is empty
+        else:
+            raise Exception("Nothing to update as query is empty")
+            
+# Delete operation for removing information
+    def delete(self, query):
+        # checks if there is a matching query
+        if query is not None:
+            # deletes the query
+            data = self.database.animals.delete_many(query)
+            # returns how many documents were deleted
+            print({data.deleted_count}, " document(s) deleted")
+        # Raises exception if query parameter is empty
+        else:
+            raise Exception("Nothing to delete as query is empty")
