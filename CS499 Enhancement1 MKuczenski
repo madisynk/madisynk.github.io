@@ -1,0 +1,76 @@
+// Imports to allow connection to MongoDB and use of Documents
+import com.mongodb.MongoClient;
+import com.mongodb.client.MongoDatabase;
+import com.mongodb.client.MongoCollection;
+import com.mongodb.client.model.Filters;
+import com.mongodb.client.model.Updates;
+import org.bson.Document;
+import org.bson.types.ObjectId;
+
+public class AnimalShelter {
+    // Initialize variables 
+    private MongoClient client;
+    private MongoDatabase database;
+    private MongoCollection<Document> collection;
+
+    public AnimalShelter(String USER, String PASS, String HOST, int PORT, String DB, String COL) {
+        // Initializes connection variables
+        private final String USER = "aacuser";
+        private final Strnig PASS = "1214lg";
+        private final String HOST = "nv-desktop-services.apporto.com";
+        private final String PORT = 32583;
+        private final String DB = "AAC";
+        private final String COL = "animals";
+
+        // Creates a link to connect to MongoDB
+        String connectionLink = "mongodb://" + USER + ":" + PASS + "@" + HOST + ":" + PORT;
+        // Initalizes connection
+        this.client = new MongoClient(connectionLink);
+        this.database = this.client.getDatabase(DB);
+        this.collection = this.database.getCollection(COL);
+    }
+    
+    // Create operation for adding new document
+    public boolean create(Document data) {
+        // Checks if data is not null
+        if (data != null) {
+            // Inserts data into dictionary
+            this.collection.insertOne(data);
+            // Checks if data was properly nserted
+            return insert.wasAcknowledged();
+        } else {
+            // Throws exception if nothing was input into parameter fields
+            throw new IllegalArgumentException("Nothing to save because data parameter is empty");
+        }
+    }
+
+    // Read operation for finding a document in database
+    public FindIterable<Document> read(Document query) {
+        // Searches collection for matching query
+        data = this.collection.find(query);
+        // Returns query
+        return data;
+    }
+
+    // Update operation for modifying document in database
+    public void update(Docuement query, Document updated) {
+        // Checks if query is not null
+        if (query != null) {
+            // Finds query in collecetion and updates to "updated" variable
+            this.collection.updateMany(query, Updates.combine(Updates.set(updated)));
+            // Prints out statement of how many documents were modifed 
+            System.out.println(this.collection.countDocuments(query) + " documents(s) modifed");
+        }
+    }
+
+    // Delete operation for removing document in database
+    public void delete(Document query) {
+        // Checks if query is not null
+        if (query != null) {
+            // Searches collection for matching query and deletes matches
+            this.collection.deleteMany(query);
+            // Prints out a statement of how many documents were deleted
+            System.out.println(this.collection.countDocuments(query) + " document(s) deleted");
+        }
+    }
+}
