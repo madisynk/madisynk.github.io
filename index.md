@@ -4,7 +4,7 @@ Hello, I am Madisyn Kuczenski. Throughout my learning experience while obtaining
 # Reflection of Skills
 Throughout my time in the computer science program, I have been able to learn about and try out many different subjects. I started by learning very basic concepts in Python, Java, and C++ languages. From there, I began to work on more advanced projects in each language. Some of the projects brought out my strengths, as they came very easily to me, and I was able to go above and beyond what was expected. For example, when creating projects with Python, I was able to complete them quickly as the language was easy for me to remember the syntax. Additionally, I took some courses that focused on using coding to help with data analysis. This is where I found my true passion, as I was eager to complete the coursework and learn as much as possible. Working with SQL databases was very interesting, and I enjoyed querying the database to complete the projects. Thanks to opportunities and knowledge I have gained throughout the program, it has made me prepared to enter the computer science workforce. 
 
-### Collaborating in A Team Environment
+### Collaborating in a Team Environment
 I have learned how to collaborate in a team environment while completing the computer science program. There have been courses that I have taken where the main focus of the class was not coding, but how to convey my ideas to others in a team, as well as take their ideas into consideration. I understand the importance of teamwork and working cohesively within a team. By using concepts like SCRUM and Kanban, I have practiced and become skillful in working with in a team environment.
 
 ### Communicating with Stakeholders
