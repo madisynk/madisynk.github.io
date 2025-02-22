@@ -5,7 +5,7 @@ This enhancement shows the knowledge I have in implementing data structures and 
 [Enhancement Two](https://github.com/madisynk/madisynk.github.io/blob/main/CS499%20Enhancement2%20Mongosh%20MK.js)
 
 ### Link to Narrative
-[Enhancement Two Narrative](https://github.com/madisynk/madisynk.github.io/blob/main/CS499%20Enhancement2%20Narrative%20MKuczenski.docx)
+[Enhancement Two Narrative](Enhancement-Two-Narrative.md)
 
 [Back to Main Page](https://madisynk.github.io)
 
