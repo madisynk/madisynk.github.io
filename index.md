@@ -29,7 +29,7 @@ I chose this artifact to showcase my ability in the 3 different computer science
 ## Code Review
 [Code Review](https://youtu.be/GlrgKV-fIdE)
 
-## Enhancement One: Software Design and Engineering 
+## [Enhancement One: Software Design and Engineering](enhancements.md)
 [Enhancement One Artifact](https://github.com/madisynk/madisynk.github.io/blob/main/CS499%20Enhancement1%20MKuczenski)
 
 ## Enhancement Two: Algorithms and Data Structures
