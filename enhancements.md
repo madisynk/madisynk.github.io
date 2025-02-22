@@ -1,7 +1,3 @@
-layout: page
-title: "Enhancements"
-permalink: https://https://madisynk.github.io/enhancements
-
 ## Code Review
 [Code Review](https://youtu.be/GlrgKV-fIdE)
 
