@@ -27,8 +27,8 @@ The artifact that I have chosen to demonstrate my skills is from the CS-340 Clie
 I chose this artifact to showcase my ability in the 3 different computer science categories, as it had many different features already that could be improved upon to make a better overall project. I worked on translating the artifact into a different coding language, implementing a more secure data validation check, and upgrading the database to more advanced SQL queries. Throughout the process of implementing the enhancements, I was able to reflect on my past skills and the new knowledge that I have learned from continuing my education. Computer science is a field that requires constant learning, and I have proven to be dedicated to learn new skills by the work that I have completed. 
 
 ## Original Artifacts
-[Link to Animal Shelter Python file](https://github.com/madisynk/madisynk.github.io/blob/main/animal_shelter(4).py)
-[Link to Dashboard file](https://github.com/madisynk/madisynk.github.io/blob/main/ProjectTwoDashboard(2).ipynb)
+- [Link to Animal Shelter Python file](https://github.com/madisynk/madisynk.github.io/blob/main/animal_shelter(4).py)
+- [Link to Dashboard file](https://github.com/madisynk/madisynk.github.io/blob/main/ProjectTwoDashboard(2).ipynb)
 
 ## Code Review
 The code review is a video of me walking through my original artifacts and explaining how they could be updated, as well as my plans for the enhancements in each computer science category.
