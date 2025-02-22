@@ -5,6 +5,6 @@ This enhancement shows the knowledge I have in creating high quality databases. 
 [Enhancement Three](https://github.com/madisynk/madisynk.github.io/blob/main/CS499%20Enhancement3%20MKuczenski)
 
 ### Link to Narrative
-[Enhancement Three Narrative](https://github.com/madisynk/madisynk.github.io/blob/main/CS499%20Enhancement3%20Narrative%20MKuczenski.docx)
+[Enhancement Three Narrative](Enhancement-Three-Narrative.md)
 
 [Back to Main Page](https://madisynk.github.io)
