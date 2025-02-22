@@ -32,7 +32,7 @@ I chose this artifact to showcase my ability in the 3 different computer science
 
 ## Code Review
 The code review is a video of me walking through my original artifacts and explaining how they could be updated, as well as my plans for the enhancements in each computer science category.
-[Code Review](https://youtu.be/GlrgKV-fIdE)
+- [Code Review](https://youtu.be/GlrgKV-fIdE)
 
 ## [Enhancement One: Software Design and Engineering](enhancement-one.md)
 
