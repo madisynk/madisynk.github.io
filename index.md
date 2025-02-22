@@ -25,3 +25,15 @@ Security is an extremely important skill that has been taught to me. I understan
 # Introduction to Artifacts 
 The artifact that I have chosen to demonstrate my skills is from the CS-340 Client/Server Development course. The artifact was originally created to use CRUD operations to take in data of rescue animals to be implemented into an animal shelter database. A client facing webpage was created to showcase the different entries in the database, allowing the user to filter the results based on the different type of rescue animals, where they are located, and what type of breeds were most popular for different types of rescues. 
 I chose this artifact to showcase my ability in the 3 different computer science categories, as it had many different features already that could be improved upon to make a better overall project. I worked on translating the artifact into a different coding language, implementing a more secure data validation check, and upgrading the database to more advanced SQL queries. Throughout the process of implementing the enhancements, I was able to reflect on my past skills and the new knowledge that I have learned from continuing my education. Computer science is a field that requires constant learning, and I have proven to be dedicated to learn new skills by the work that I have completed. 
+
+## Code Review
+[Code Review](https://youtu.be/GlrgKV-fIdE)
+
+## Enhancement One: Software Design and Engineering 
+[Enhancement One Artifact](https://github.com/madisynk/madisynk.github.io/blob/main/CS499%20Enhancement1%20MKuczenski)
+
+## Enhancement Two: Algorithms and Data Structures
+[Enhancement Two Artifact](https://github.com/madisynk/madisynk.github.io/blob/main/CS499%20Enhancement2%20Mongosh%20MK.js)
+
+## Enhancement Three: Databases
+[Enhancement Three Artifact](https://github.com/madisynk/madisynk.github.io/blob/main/CS499%20Enhancement3%20MKuczenski)
