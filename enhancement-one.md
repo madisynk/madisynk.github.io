@@ -5,7 +5,7 @@ This enhancement shows the knowledge I have in different programming languages. 
 [Enhancement One](https://github.com/madisynk/madisynk.github.io/blob/main/CS499%20Enhancement1%20MKuczenski)
 
 ### Link to Narrative
-[Enhancement One Narrative](https://github.com/madisynk/madisynk.github.io/blob/main/CS499%20Enhancement1%20Narrative%20MKuczenski.docx)
+[Enhancement One Narrative](Enhancement-One-Narrative.md)
 
 
 [Back to Main Page](https://madisynk.github.io)
